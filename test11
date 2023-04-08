@@ -1,0 +1,15 @@
+_G.Key = ""
+
+local keychecked = false
+
+
+if _G.Key == "LarryOnTheTop" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Larry2135/Script/main/Ninja.lua",true))()
+    keychecked = true
+end
+
+if keychecked == true then
+    print("Correct Key")
+else
+    print("Whrong Key Try Again")
+end
