@@ -1,0 +1,27 @@
+_G.Key = "cac"
+_G.UserKey = "ehhhhhh"
+local userkey = "https://raw.githubusercontent.com/lam29042008/key/main/key%20wl" -- link here
+local blacklist = "https://raw.githubusercontent.com/lam29042008/key/main/test3" -- link here
+local key = game:HttpGet(userkey, true)
+local banned = game:HttpGet(blacklist, true)
+plr = game.Players.LocalPlayer
+-- find database
+if string.find(key,_G.Key) then
+-- script
+    print("your whitelist")
+else
+    print("dumb your not whitelist")
+end
+
+local key = "https://raw.githubusercontent.com/Federal4612/test/main/test"
+local black = "https://raw.githubusercontent.com/Federal4612/test/main/test2"
+local User = game:HttpGet(key, true)
+local banned = game:HttpGet(black, true)
+plr = game.Players.LocalPlayer
+--find data
+if string.find(User,_G.UserKey) then
+-- script
+	print("else")
+else
+	print("dumb Your Not Whitelist")
+end
